@@ -1,0 +1,19 @@
+{
+  "name": "signalk-daly-bms",
+  "version": "1.0.0",
+  "description": "Daly Smart BMS integration via RS485 for SignalK",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk",
+    "bms",
+    "daly",
+    "battery",
+    "rs485"
+  ],
+  "main": "index.js",
+  "author": "Sjoerd02",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^12.0.0"
+  }
+}
