@@ -8,11 +8,27 @@
     "bms",
     "daly",
     "battery",
-    "rs485"
+    "rs485",
+    "lifepo4",
+    "lfp"
   ],
   "main": "index.js",
-  "author": "Sjoerd02",
+  "author": {
+    "name": "Sjoerd02",
+    "url": "https://github.com/Sjoerd02"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sjoerd02/signalk-daly-bms.git"
+  },
+  "homepage": "https://github.com/Sjoerd02/signalk-daly-bms",
+  "bugs": {
+    "url": "https://github.com/Sjoerd02/signalk-daly-bms/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "dependencies": {
     "serialport": "^12.0.0"
   }
