@@ -17,6 +17,30 @@ A [SignalK](https://signalk.org) plugin that reads data from a **Daly Smart BMS*
 - USB-to-RS485 adapter connected to the SignalK host (e.g. Raspberry Pi)
 - RS485 cable wired to the BMS: connect **A**, **B** and **GND**
 
+## Wiring — Daly USB-RS485 cable
+
+The Daly USB-RS485 cable has a 5-pin JST GH connector. With the **contacts facing you**, pin 1 is on the **right** (JST standard).
+
+```
+  contacts facing you, locking latch on top
+
+  ┌─────────────────────────┐
+  │  5    4    3    2    1  │
+  │  TX   RX   GND  A    B  │
+  └─────────────────────────┘
+       ←————————————————————
+```
+
+| Pin | Colour | Signal | Connect to RS485 adapter |
+|-----|--------|--------|--------------------------|
+| 1 | White | B (RS485−) | B |
+| 2 | Green | A (RS485+) | A |
+| 3 | Black | GND | GND |
+| 4 | — | RX (UART) | not used |
+| 5 | — | TX (UART) | not used |
+
+> **Note:** if you get no response, swap A and B — some adapters label them in reverse.
+
 ## Installation
 
 ### From the SignalK app store
